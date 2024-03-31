@@ -1,0 +1,481 @@
+/* CSS Document */
+body
+{
+	background-color:white;	/*background-image: url("../image/background-01.png"); background-size: 100%; background-repeat: no-repeat; background-position: center; background-attachment: fixed;*/
+	font-family: "Alatsi", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #2D2216;
+	padding: 10px 0;
+	margin: 0 0;
+}
+body .bg-main
+{
+		background-image: url("../image/background-01.png"); background-size: 100%;
+	position: fixed;
+	z-index: 1
+}
+.text-catefe{color: #714B3B ;font-family: 'MADE Mountain' ;font-size: 5rem;}
+.text-footer{color: #B88863;margin-bottom: 10px; margin-top: 0px}
+.text-footer2{color: #B88863;margin:0px}
+.text-sale
+{color: #B88863;
+	font-size: 80px;
+padding: 0px;
+margin-top: -10px}
+.text-banner2
+{color: #B88863;
+	font-size: 80px;
+padding: 0px;
+margin-top: -10px}
+.text-primary{color: #714B3B}
+.text-primary2{color:#2D2216}
+.text-secondary{color:antiquewhite}
+.text-logo{font-family:'MADE Mountain'; font-size: 3rem;color: #714B3B; margin: 0 0}
+.text-logo2{font-family:'MADE Mountain'; font-size: 3rem; margin-top: 0;margin-bottom: 25px ; color: #B88863}
+.bg-primary{background-color: antiquewhite}
+.bg-secondary{background-color: #714B3B}
+.bg-news{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); height: 450px; background-color: white}
+.bg-email{background-color: antiquewhite; border: none}
+.bg-email2{background-color: antiquewhite; border: none; width: 50px}
+.bg-main{position: fixed; z-index: 0; height: 100%; width: 100%; top: 0; left: 0; background-image: url("../image/background-01.png")}
+.border{border: 2px solid #2D2216; box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.3);
+  padding: 50px 20px 20px;
+}
+.newdrink
+{
+	color: antiquewhite;
+	background:#2D2216; 
+	margin: 0px; 
+	padding-bottom: 5px;
+	padding-top: 5px;
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.3);
+}
+.img-100{ width: 100%; height: auto}
+a{ 
+	color:#714B3B;
+	text-decoration:none
+}
+a:hover
+{
+	color:#B88863
+}
+
+/*nav
+{
+	border-top: 2px solid #714B3B;
+	border-bottom: 2px solid #714B3B;
+ }
+nav ul
+{
+	padding-left: 0;
+	list-style: none;
+	display: flex;
+	justify-content:space-around
+}
+nav ul li a
+{
+	padding: 5px 15px;color: #714B3B;
+	transition: all 0.2s
+}
+nav ul li a:hover
+{
+	color: #B88863;
+	border-bottom: 2px solid #B88863
+}*/
+.voucher-bg
+{
+	position:fixed;
+	width: 100%; height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 9999;
+	display: block;
+}
+.voucher
+{
+	position: absolute;
+	width: 50%;
+	height: 30%;
+	left: 25%; top: 35%;
+	display: block;
+}
+/*.close {
+position: absolute;
+color: antiquewhite;
+background:#1B1618 ;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}*/
+
+
+/*.close{
+cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+}
+
+.close:hover {
+ background: #bbb;
+}
+
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close:focus > .voucher{visibility: hidden}*/
+.menu
+{
+	background: #2D2216;
+	font-size: 1.5rem;
+	color: antiquewhite;
+	padding-top: 1px;
+	padding-bottom: 1px
+}
+.newmenu
+{
+	border-top: 2px #714B3B solid;
+	border-bottom: 2px #714B3B solid;
+	width: 50%;
+	align-content: center
+}
+nav
+{
+	border-top: 2px #714B3B solid;
+	border-bottom: 2px #714B3B solid;
+	margin: 0px; 
+	padding: 0px
+}
+nav ul
+{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content:space-between
+}
+nav ul li a
+{ 
+padding: 5px 15px;
+display: block;
+color:#714B3B;
+transition: all 0.2s;
+}
+nav ul li a:hover{
+	color:antiquewhite;
+	/*border-bottom: 2px solid #F2994A;*/
+	background-color:#714B3B;
+	border-radius: 50px
+}
+nav ul li { position: relative; text-decoration: none}
+nav ul li ul 
+{
+	position: absolute;
+	left: 0;
+	top: 200%;
+	flex-direction: column;
+	background: #fff;
+	width: 150px;
+	box-shadow: 0 0 5px #666;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.2s;
+	z-index: 9999;
+		border-radius: 10px;
+}
+nav ul li:hover ul 
+{
+	top: 100%;
+	opacity: 1;
+	visibility: visible
+}
+nav ul li ul a:hover
+{
+	
+	color:antiquewhite;
+	background:#B88863;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+.banner{position: relative}
+.banner-caption
+{
+	width: 40%; height: 70%;
+	position: absolute;
+	left: 50%;
+	top:15%;
+	font-size: 1.5rem
+}
+.banner-caption2
+{
+	width: 40%; height: 70%;
+	position: absolute;
+	left: 50%;
+	top:10%;
+	font-size: 1.1rem
+}
+.banner-cake-caption
+{
+	position: absolute;
+	width: 100%;height: 100%;
+	top:25%;
+	font-size: 2rem;
+	font-family: "Caveat"
+}
+.banner-drink-caption
+{
+	position: absolute;
+	width: 50%;height: 100%;
+	top:5%; left: 40%;
+	font-size: 2rem;
+	font-family: "Caveat"
+}
+.banner-contact-caption
+{
+	position: absolute;
+	width: 100%;height: 100%;
+	top:25%;
+	font-size: 4rem;
+	
+}
+.spham{ position: relative}
+.sp-icon{
+
+	color: antiquewhite;
+	position: absolute;
+	top: 25%; left: 20%;
+	background-color: #2D2216;
+	border: 2px solid #2D2216;
+	padding: 5% 16%;
+	border-radius: 50px;
+	transition: all 0.5s;
+	opacity: 0
+}
+.spham:hover> .sp-icon{opacity: 0.7; top: 30% }
+.sp-icon a{color: antiquewhite}
+.sp-icon a:hover{color: #B88863}
+
+
+.cake
+{
+	position: relative;
+}
+.cake-icon
+{
+	color: antiquewhite;
+	position: absolute;
+	top: 25%; left: 18%;
+	background-color: #2D2216;
+	border: 2px solid #2D2216;
+	padding: 5% 16%;
+	border-radius: 50px;
+	transition: all 0.5s;
+	opacity: 0
+}
+.cake:hover> .cake-icon{opacity: 0.7; top: 45% }
+.cake-icon a{color: antiquewhite}
+.cake-icon a:hover{color: #B88863}
+
+.owl-theme-cake .owl-nav {
+	font-size:3rem ;
+	background: #000000;
+	 color: #B88863;
+	position: absolute; width: 100%;
+		top:35%;	
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme-cake .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 40px;
+    margin: 5px;
+    padding: 5px 7px;
+    background: #B88863;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50px; }
+    .owl-theme-cake .owl-nav [class*='owl-']:hover {
+    background:#714B3B;
+	padding: 10px 10px;
+    color: #FFF;
+    text-decoration: none; }
+  .owl-theme-cake .owl-nav .disabled {
+    opacity: 0.5;
+    cursor: default; }
+
+
+.owl-theme-cake .owl-nav.disabled + .owl-dots {
+  margin-top: 10px; }
+
+.owl-theme-cake .owl-dots {
+	/*border: 2px solid red;*/
+	
+	bottom: 20px;
+	width: 100%;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme-cake .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; }
+    .owl-theme-cake .owl-dots .owl-dot span {
+      width: 15px;
+      height: 15px;
+      margin: 25px 7px;
+      background:#B88863 ;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+    .owl-theme-cake .owl-dots .owl-dot.active span, .owl-theme-cake .owl-dots .owl-dot:hover span {
+      background:#2D2216; }
+
+
+
+/*.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}*/
+
+
+
+
+footer
+{ background: #2D2216;
+	padding: 50px 0;
+}
+footer a
+{
+	color: #B88863
+}
+footer a:hover
+{
+	color: antiquewhite
+}
+
+
+
+
+
+
+
+
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/* Style tab links */
+.tablink {
+	font-family: "Alatsi";
+  background-color:#714B3B;
+  color: antiquewhite;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 25px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color:#53372B;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+
+  display: none;
+  padding: 100px 20px 20px;
+  height: 100%;
+}
+
+#COFFEE {border: 2px solid #2D2216; box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.3);}
+#TEA {border: 2px solid #2D2216;box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.3);}
+#MILKTEA {border: 2px solid #2D2216;box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.3);}
+#OTHERDRINKS {border: 2px solid #2D2216;box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.3);}
+
+
+
+
+/*subscribe style */
+
+/* Style the form element with a border around it */
+form {
+border-radius: 10px
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px; background-color: antiquewhite
+}
+input[type=checkbox]:hover {
+  margin-top: 16px; opacity: 80%
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color:#B88863;
+  color: #2D2216;
+  border: none;
+	font-family: "Alatsi";
+	font-size: 16px
+}
+
+input[type=submit]:hover {
+opacity: 80%;
+}
+
+input[type=checked]  {
+background-color: antiquewhite
+}

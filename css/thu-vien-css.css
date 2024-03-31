@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+*{ box-sizing: border-box}
+.container{width: 80%; margin: auto}
+.container2{width: 100%; padding-top: 80px; padding-bottom: 30px;}
+.container-2{width: 100%; padding-top: 80px; padding-bottom: 30px;}
+.container3{width: 80%; margin: auto; border: 2px solid #714B3B}
+.img-100{ width: 100%; height: auto}
+.img-circle{ border-radius: 50%}
+p{ line-height: 1.5rem}
+
+.row{ display: flex; flex-wrap: wrap}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+  padding: 15px;
+    position: relative;
+ /* border: 1px solid red;*/
+}
+/*--   -spacing style--------------*/
+.py-10{ padding-top: 10px; padding-bottom: 10px}
+.py-30{ padding-top: 30px; padding-bottom: 30px}
+.py-50{ padding-top: 50px; padding-bottom: 50px}
+.p-0{ padding: 0}
+.p-20{ padding: 20px}
+.px-15{ padding-left: 15px; padding-right: 15px}
+.pr-50{ padding-right: 50px}
+.pr-5{ padding: 5px}
+.pt-20{padding-top: 20px}
+.pt--30{padding-top: -30px}
+.pt-10{padding-top: 10px}
+.pl-5{padding-left: 5px}
+.pb-30{padding-bottom: 30px}
+.pb-10{padding-bottom: 10px}
+.mp-email{padding-top: 0px; padding-right: 30px; padding-left: 10px; margin-top: 5px}
+.mt-0{ margin-top: 0}
+.mt--5{ margin-top: -5px}
+.mt--20{margin-top: -20px}
+.mt--50{margin-top: -50px}
+.mt--100{margin-top: -100px}
+.my-30{ margin-top: 30px; margin-bottom: 30px}
+.mx-auto { margin-left: auto; margin-right: auto}
+.mt-30{ margin-top: 30px}
+.mt-3{ margin-top: 3px}
+.mt-50{ margin-top: 50px}
+.ml-10{margin-left: 10px}
+.mb-10{margin-bottom: 10px}
+/*---------text-align----------------------*/
+.text-right{ text-align: right}
+.text-center { text-align: center}
+/*------display -style ---------------------------*/
+.d-flex{ display: flex}
+.d-block{ display:block}
+.d-none{ display: none}
+.justify-center{ justify-content: center}
+.justify-between{ justify-content: space-between}
+.justify-around{ justify-content: space-around}
+.align-items-center{ align-items: center}
+.align-self-center{ align-self: center}
+.align-items-end{ align-items:flex-end}
+.align-items-stretch{ align-items:stretch}
+.row-reverse{ flex-direction: row-reverse}
+/*----------color-style-------------------*/
+.text-white{ color: #fff}
+.text-price{font-size: 2rem; color:#B52900}
+.text-pricebf{font-size: 1.5rem; text-decoration: line-through; color: #714B3B}
+.rem-onedotfive {font-size: 1.5rem}
+.bg-grey{ background: #F0F0F0}
+.border-radius-10{border-radius: 10px}
+.btn-fill-primary
+{
+    background-color:#945336;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+     border: 2px solid #F87503;
+    transition: all .5s
+}
+.btn-fill-primary:hover{
+     background-color:#D9B597;
+    color: #fff
+}
+.btn-outline-primary
+{
+    border: 2px solid #945336;
+    background: none;
+    padding: 10px 20px;
+    color: #945336;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+     transition: all .5s
+}
+.btn-primary-outline
+{
+	color: antiquewhite;
+	border: 2px solid antiquewhite;
+	padding: 10px 20px;
+	transition: all 0.5s;
+	border-radius: 50px;
+	background-color: transparent
+}
+.btn-primary-outline:hover
+{
+	border: 2px solid #B88964;
+	background: #B88964;
+	color: white;
+	border-radius: 50px
+}
+
+.btn-primary2-outline
+{
+	color: antiquewhite;
+	border: 2px solid antiquewhite;
+	padding: 10px 20px;
+	transition: all 0.5s;
+	border-radius: 50px;
+	background-color: transparent
+}
+.btn-primary2-outline:hover
+{
+	border: 2px solid #2D2216;
+	background: #2D2216;
+	color: antiquewhite;
+	border-radius: 50px
+}
+
+.btn-secondary-outline
+{
+	color: #2D2216;
+	border: 2px solid #2D2216;
+	padding: 10px 20px;
+	transition: all 0.5s;
+	border-radius: 50px;
+	background-color: transparent
+}
+.btn-secondary-outline:hover
+{
+	border: 2px solid #2D2216;
+	background: #2D2216;
+	color: antiquewhite;
+	border-radius: 50px
+}
